@@ -1,9 +1,9 @@
 @import url("https://uilight.netlify.app/main.css");
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@import url("https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined");
 
 :root {
-  --text-color-primary: #f9fafb;
-  --background-color: #111827;
+  --text-color-primary: #292929;
+  --background-color: #cfdeff;
 }
 
 body {
@@ -19,17 +19,19 @@ body {
 
 .heading-1 {
   color: var(--text-color-primary);
-  text-align: center;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .input {
-  border-radius: 4px;
   font-size: 1.25rem;
-  padding: 0.5rem;
+  font-weight: bolder;
+  padding: 1.5rem;
   border: none;
-  width: 25vw;
+  width: 31vw;
   margin-bottom: 0.5rem;
+  border-radius: 10rem;
+  text-align: center;
 }
 
 .input:focus {
@@ -43,7 +45,11 @@ body {
 
 .btn-primary {
   font-size: 1.25rem;
-  padding: 0.5rem 0.875rem;
+  width: 58vh;
+  padding: 1.5rem 3.5rem;
+  background: rgb(164, 164, 0);
+  border-radius: 10rem;
+  margin-top: 10px;
 }
 
 .todo {
@@ -52,8 +58,14 @@ body {
 }
 
 .todos-container {
-  height: 70vh;
+  height: 50vh;
+  width: 58vh;
   overflow-y: auto;
+  margin-top: 20px;
+  padding: 1.2rem 1.5rem;
+  border-radius: 20px;
+  scrollbar-width: none;
+  box-shadow: 10px 10px 50px #a3bfff;
 }
 
 .t-pointer {
@@ -74,5 +86,5 @@ body {
 }
 
 .del-btn {
-    color: #f9fafb;
+  color: var(--text-color-primary);
 }

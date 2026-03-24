@@ -63,9 +63,9 @@ body {
   overflow-y: auto;
   margin-top: 20px;
   padding: 1.2rem 1.5rem;
-  border-radius: 20px;
+  border-radius: 15px;
   scrollbar-width: none;
-  box-shadow: 10px 10px 50px #a3bfff;
+  box-shadow: 20px 20px 60px #a3bfff;
 }
 
 .t-pointer {

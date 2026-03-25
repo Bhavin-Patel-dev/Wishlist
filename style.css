@@ -84,7 +84,3 @@ body {
   text-decoration: line-through;
   color: var(--text-color-primary);
 }
-
-.del-btn {
-  color: var(--text-color-primary);
-}
